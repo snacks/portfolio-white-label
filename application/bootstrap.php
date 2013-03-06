@@ -16,6 +16,7 @@ else
 	require SYSPATH.'classes/kohana'.EXT;
 }
 
+
 /**
  * Set the default time zone.
  *
@@ -133,3 +134,4 @@ Route::set('defaultLatticeFrontend', '(<controller>)', array( 'controller'=>'', 
 	'id'     => 'homepage',
 ));
 
+Cookie::$salt = '29384hoiasud9f89238h98f2';
