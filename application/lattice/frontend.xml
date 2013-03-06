@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration SYSTEM "../../modules/lattice/lattice/frontend.dtd">
+
+<configuration>
+	
+	<view name="home">
+		<includeData from="mobile" label="mobileImages"/>
+		<includeData from="web" objectTypeFilter="imagesItem" label="webImages"/>
+		<includeData from="identity" objectTypeFilter="imagesItem" label="logoImages"/>
+		<includeData from="visualizations" objectTypeFilter="imagesItem" label="dataImages"/>
+	</view>
+
+</configuration>
+

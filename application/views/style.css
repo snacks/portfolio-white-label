@@ -1,0 +1,62 @@
+body{ 
+	background:#010101 url('images/background.jpg') no-repeat left top;
+	background-attachment:fixed;
+	color:white;
+	font-family:'Walkway', sans-serif;
+}
+
+.siteHeader{
+	font-size:52px;
+	margin:10px 0 0 53px;
+	position:fixed;
+}
+
+.menu{
+	margin:65px 0;
+	text-align:right;
+	width:210px;
+	height:200px;
+	margin-left:150px;
+	line-height:28px;
+	float:left;
+	position:fixed;
+}
+
+.menu a{
+	font-size:24px;
+  text-decoration:none;
+	color:#939191;
+}
+
+.mainContent{
+	margin:90px 0;
+	width:830px;
+	height:auto;
+	margin-left:400px;
+	float:left;
+}
+
+
+
+.imagesItem{
+	width:246px;
+	height:236px;
+	float:left;
+}
+
+.imagesItem{
+	margin-left:30px;
+	margin-bottom:30px;
+}
+
+.alpha{
+	float:left;
+}
+
+.omega{
+	float:right;
+}
+
+.mobileImages, .logoImages, .webImages, .dataImages{
+	display:none;
+}

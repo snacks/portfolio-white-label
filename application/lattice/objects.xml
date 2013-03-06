@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration SYSTEM "../../modules/lattice/lattice/objects.dtd">
+
+<configuration>
+
+	<objectTypes>
+
+		<objectType name="home" contentType="category" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+			<elements>
+			<text name="siteName" label="Site Header"/>
+			</elements>
+		</objectType>
+
+		<objectType name="images" contentType="category" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+			<addableObject objectTypeName="imagesItem" addText="Add an Image"/>
+		</objectType>
+
+		<objectType name="imagesItem" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+			<elements>
+				<image name="thumbnail" label="Thumbnail">
+					<ext>jpg</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+					<ext>png</ext>
+				</image>
+
+				<image name="img" label="Listed Image">
+					<ext>jpg</ext>
+					<ext>tiff</ext>
+					<ext>tif</ext>
+					<ext>png</ext>
+				</image>
+				<text name="caption" label="Caption"/>
+			</elements>
+		</objectType>
+
+
+  </objectTypes>
+
+</configuration>
