@@ -1,3 +1,2 @@
-# Kohana PHP Framework, version 3.1 (release)
+# A whitelabel portfolio built using kohana and lattice cms
 
-This is the current release version of [Kohana](http://kohanaframework.org/).
